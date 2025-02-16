@@ -40,6 +40,5 @@ fn main() {
 
     // print_holder(account.holder);
     print_account(account);
-    
 
 }
