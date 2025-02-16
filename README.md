@@ -25,7 +25,7 @@ Ensure you have the following installed:
 ### Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/BANK.git
+   git clone https://github.com/chiragnabhoya/BANK.git
    cd BANK
    ```
 2. Build the project:
@@ -66,4 +66,4 @@ This project is licensed under the MIT License.
 
 ## 📞 Contact
 
-For inquiries or issues, please open an [issue](https://github.com/your-username/BANK/issues) or reach out to `your-email@example.com`.
+For inquiries or issues, please open an [issue](https://github.com/your-username/BANK/issues) or reach out to `chiragnabhoya2506@gmail.com`.
