@@ -39,6 +39,7 @@ fn main() {
 
     let account_ref = &account;
     print_account(account_ref);
+    println!("{:#?}", account_ref.id);
 
     println!("{:#?}", account);
 
