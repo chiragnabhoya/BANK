@@ -1,13 +1,13 @@
-# Rust Email Newsletter Backend
+# BANK
 
 ## 📌 Overview
 
-This project is a Rust-based backend system for managing email newsletters. It includes basic banking functionalities such as account management.
+This project is a Rust-based backend system for managing bank accounts. It includes basic functionalities such as account creation, balance management, and transaction handling.
 
 ## 📂 Project Structure
 
 ```
-rust-email-newsletter-backend/
+BANK/
 │── src/
 │   ├── main.rs         # Main application file
 │── target/             # Compiled output directory
@@ -25,8 +25,8 @@ Ensure you have the following installed:
 ### Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/rust-email-newsletter-backend.git
-   cd rust-email-newsletter-backend
+   git clone https://github.com/your-username/BANK.git
+   cd BANK
    ```
 2. Build the project:
    ```sh
@@ -41,6 +41,7 @@ Ensure you have the following installed:
 
 - Basic banking functionalities with `Account` and `Bank` structs.
 - Supports creating accounts and printing account details.
+- Manages balances and transactions.
 - Uses Rust's `derive(Debug)` for structured output.
 
 ## 📝 Code Overview
@@ -48,7 +49,7 @@ Ensure you have the following installed:
 The `main.rs` file defines:
 - `Account` struct: Represents a bank account with ID, balance, and holder name.
 - `Bank` struct: Manages multiple accounts.
-- Functions to print account details.
+- Functions to print account details and manage balances.
 - Demonstrates Rust's borrowing and ownership concepts.
 
 ## 👨‍💻 Contributing
@@ -65,4 +66,4 @@ This project is licensed under the MIT License.
 
 ## 📞 Contact
 
-For inquiries or issues, please open an [issue](https://github.com/your-username/rust-email-newsletter-backend/issues) or reach out to `your-email@example.com`.
+For inquiries or issues, please open an [issue](https://github.com/your-username/BANK/issues) or reach out to `your-email@example.com`.
