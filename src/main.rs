@@ -34,15 +34,16 @@ fn print_holder(holder: String) {
     println!("{}", holder);
 }
 
+fn change_account(account: &mut Account) {
+    account.balance = 100;
+
+    // println!("{}",account.holder);
+}
+
 fn main() {
     let mut account = Account::new(1, "Alice".to_string());
 
-    let mut account_ref1 = &account;
-    let mut account_ref2 = &account;
-
-
-    print_account(account_ref1);
-    print_account(account_ref2);
+    change_account(&mut account);
     
 
     println!("{:#?}", account);
