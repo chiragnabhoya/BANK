@@ -14,6 +14,10 @@ impl Account {
         }
     }
 
+    fn summary(&self) -> String {
+        format!("{} has a balance of {}",self.holder,self.balance)
+    }
+
     fn deposit(&mut self, amount: i32) -> i32 {
         self.balance += amount;
         self.balance
@@ -23,6 +27,7 @@ impl Account {
         self.balance -= amount;
         self.balance
     }
+
 }
 
 #[derive(Debug)]
@@ -47,6 +52,8 @@ fn main() {
 
     account.deposit(100);
     account.withdraw(40);
+
+    println!("{}", account.summary());
     
     bank.add_account(account);
     
