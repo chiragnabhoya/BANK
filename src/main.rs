@@ -49,7 +49,10 @@ impl Bank {
     }
 
     fn summary(&self) -> Vec<String> {
-        self.accounts.iter().map(|account| account.summary()).collect::<Vec<String>>()
+        self.accounts.iter()
+        .map(|account| account
+            .summary())
+            .collect::<Vec<String>>()
     }
 }
 
