@@ -9,11 +9,11 @@ This project is a Rust-based backend system for managing bank accounts. It inclu
 ```
 BANK/
 │── src/
-│   ├── main.rs         # Main application file
+│   └── main.rs         # Main application file
 │── target/             # Compiled output directory
 │── .gitignore          # Git ignore rules
 │── Cargo.lock          # Dependency lock file
-│── Cargo.toml          # Project dependencies and metadata
+└── Cargo.toml          # Project dependencies and metadata
 ```
 
 ## 🚀 Getting Started
