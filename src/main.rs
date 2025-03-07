@@ -68,5 +68,4 @@ fn main() {
     
     println!("{:#?}", bank.summary());
     println!("Total balance: {}", bank.total_balance());
-
 }
